@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="600dp"
+    android:gravity="center"
+    android:onClick="hide">
+    <RelativeLayout
+        android:layout_width="302dp"
+        android:layout_height="302dp"
+        android:background="#ffffffff"
+        android:gravity="center">
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="#fffffa00"
+            android:onClick="doNothing"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="290dp"
+                android:layout_height="290dp"
+                android:orientation="vertical"
+                android:onClick="doNothing"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="28dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="  INFO"
+                        android:textColor="#000000"
+                        android:layout_weight="3"
+                        android:textSize="18dp"/>
+                    <TextView
+                        android:id="@+id/wattext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2432 "
+                        android:textColor="#000000"
+                        android:gravity="right"
+                        android:layout_weight="7"
+                        android:textSize="20dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/thunder2"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="299dp"
+                    android:layout_height="215dp"
+                    android:background="#000000"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/intro_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  This is your friend now please take good care "
+                        android:textColor="#fffffa00"
+
+                       />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="  Gender: "
+                            android:textColor="#fffffa00"
+                            android:layout_alignBottom="@+id/intro_text"
+
+                            />
+                        <TextView
+                            android:id="@+id/gender_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text=" "
+                            android:textColor="#fffffa00"
+                            android:layout_alignBottom="@+id/intro_text"
+
+                            />
+
+
+                        </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="  Level: "
+                            android:textColor="#fffffa00"
+                            android:layout_alignBottom="@+id/intro_text"
+
+                            />
+                        <TextView
+                            android:id="@+id/level_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text=" "
+                            android:textColor="#fffffa00"
+                            android:layout_alignBottom="@+id/intro_text"
+
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="  Watts Needed to Level up! : "
+                            android:textColor="#fffffa00"
+                            android:layout_alignBottom="@+id/intro_text"
+
+                            />
+                        <TextView
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:textColor="#fffffa00"
+                            android:layout_alignBottom="@+id/intro_text"
+
+                            />
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="top|center"
+                           android:text="                                   Daily Gift!"
+                           android:textColor="#fffffa00"/>
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/daily_gift1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"/>
+                            <ImageView
+                                android:id="@+id/daily_gift2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                            <ImageView
+                                android:id="@+id/daily_gift3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"/>
+
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    >
+
+
+
+
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+<!-- From: file:/Users/Admin/AndroidstudioProjects/WidgetDemo/app/src/main/res/layout/window.xml -->

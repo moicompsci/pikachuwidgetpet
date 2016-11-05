@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:1:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:1:11
+	package
+		ADDED from AndroidManifest.xml:2:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:4:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:6:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:recyclerview-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:7:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:10:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:recyclerview-v7:21.0.3:17:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:13:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:11:9
+	android:icon
+		ADDED from AndroidManifest.xml:12:9
+receiver#pl.looksok.widgetdemo.MyWidgetProvider
+ADDED from AndroidManifest.xml:15:9
+	android:name
+		ADDED from AndroidManifest.xml:15:19
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:16:13
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:17:17
+	android:name
+		ADDED from AndroidManifest.xml:17:25
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:20:13
+	android:resource
+		ADDED from AndroidManifest.xml:22:17
+	android:name
+		ADDED from AndroidManifest.xml:21:17
+receiver#pl.looksok.widgetdemo.MyWidgetIntentReceiver
+ADDED from AndroidManifest.xml:24:9
+	android:label
+		ADDED from AndroidManifest.xml:26:13
+	android:name
+		ADDED from AndroidManifest.xml:25:13
+intent-filter#pl.looksok.intent.action.CHANGE_PICTURE+pl.looksok.intent.action.ITEM_BAG+pl.looksok.intent.action.MYSTERY_GIFT+pl.looksok.intent.action.OPEN_WINDOW+pl.looksok.intent.action.RETURN
+ADDED from AndroidManifest.xml:27:13
+action#pl.looksok.intent.action.CHANGE_PICTURE
+ADDED from AndroidManifest.xml:28:17
+	android:name
+		ADDED from AndroidManifest.xml:28:25
+action#pl.looksok.intent.action.RETURN
+ADDED from AndroidManifest.xml:29:17
+	android:name
+		ADDED from AndroidManifest.xml:29:25
+action#pl.looksok.intent.action.OPEN_WINDOW
+ADDED from AndroidManifest.xml:30:17
+	android:name
+		ADDED from AndroidManifest.xml:30:25
+action#pl.looksok.intent.action.MYSTERY_GIFT
+ADDED from AndroidManifest.xml:31:17
+	android:name
+		ADDED from AndroidManifest.xml:31:25
+action#pl.looksok.intent.action.ITEM_BAG
+ADDED from AndroidManifest.xml:32:17
+	android:name
+		ADDED from AndroidManifest.xml:32:25
+activity#pl.looksok.widgetdemo.Window
+ADDED from AndroidManifest.xml:39:9
+	android:theme
+		ADDED from AndroidManifest.xml:39:42
+	android:name
+		ADDED from AndroidManifest.xml:39:19
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:40:13
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from AndroidManifest.xml:41:17
+	android:name
+		ADDED from AndroidManifest.xml:41:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:42:17
+	android:name
+		ADDED from AndroidManifest.xml:42:27
+activity#pl.looksok.widgetdemo.MysteryGiftActivity
+ADDED from AndroidManifest.xml:45:9
+	android:theme
+		ADDED from AndroidManifest.xml:45:55
+	android:name
+		ADDED from AndroidManifest.xml:45:19
+activity#pl.looksok.widgetdemo.BagActivity
+ADDED from AndroidManifest.xml:51:9
+	android:theme
+		ADDED from AndroidManifest.xml:51:47
+	android:name
+		ADDED from AndroidManifest.xml:51:19
+activity#android.support.v7.widget.TestActivity
+ADDED from com.android.support:recyclerview-v7:21.0.3:18:9
+	android:label
+		ADDED from com.android.support:recyclerview-v7:21.0.3:18:19
+	android:name
+		ADDED from com.android.support:recyclerview-v7:21.0.3:18:60

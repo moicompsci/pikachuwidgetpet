@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+     <stroke 
+        android:width="1dp" 
+        android:color="#ffec1a15"/>
+    <corners 
+        android:radius="6dp" />
+
+    <padding 
+        android:left="23dp"
+        android:right="23dp"
+        android:top="20dp"
+        android:bottom="20dp"/>
+
+    <solid android:color="#ffec1a15"/>
+    
+
+</shape>
+<!-- From: file:/Users/Admin/AndroidstudioProjects/WidgetDemo/app/src/main/res/drawable/button_shape4.xml -->
