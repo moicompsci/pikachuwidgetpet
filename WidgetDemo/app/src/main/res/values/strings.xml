@@ -1,5 +1,7 @@
 <resources>
 
     <string name="app_name">MoisPrototypeV3</string>
+    <string name="title_defaultactivity_list">DefaultActivities</string>
+    <string name="title_defaultactivity_detail">DefaultActivity Detail</string>
 
 </resources>

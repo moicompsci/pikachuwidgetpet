@@ -1,0 +1,144 @@
+[
+    {
+        "outputFile": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 42,
+                    "endOffset": 93
+                },
+                "from": {
+                    "file": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 42,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 98,
+                    "endColumn": 42,
+                    "endOffset": 136
+                },
+                "from": {
+                    "file": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 42,
+                        "endOffset": 139
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 141,
+                    "endColumn": 52,
+                    "endOffset": 189
+                },
+                "from": {
+                    "file": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endColumn": 52,
+                        "endOffset": 67
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 194,
+                    "endColumn": 79,
+                    "endOffset": 269
+                },
+                "from": {
+                    "file": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 79,
+                        "endOffset": 222
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 274,
+                    "endColumn": 72,
+                    "endOffset": 342
+                },
+                "from": {
+                    "file": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 73,
+                        "endColumn": 72,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 347,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 985
+                },
+                "from": {
+                    "file": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 844
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 990,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1145
+                },
+                "from": {
+                    "file": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 887,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1044
+                    }
+                }
+            }
+        ]
+    }
+]

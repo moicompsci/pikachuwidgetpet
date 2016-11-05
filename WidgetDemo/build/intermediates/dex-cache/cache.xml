@@ -2,32 +2,58 @@
 <items version="2" >
 
     <item
-        jar="/Users/Admin/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/Admin/AndroidstudioProjects/WidgetDemo/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-0f605efb7673bac2fb314f62afd992c3ff6e5075.jar" />
-    </item>
-    <item
-        jar="/Users/Admin/AndroidstudioProjects/WidgetDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/Admin/AndroidstudioProjects/WidgetDemo/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-0f2246eeb9ffc9fd088e4a38ba5fe57665700495.jar" />
-    </item>
-    <item
-        jar="/Users/Admin/AndroidstudioProjects/WidgetDemo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="/Users/Admin/AndroidstudioProjects/WidgetDemo/app/build/intermediates/pre-dexed/debug/classes-10dec51d469c9868563805b8f8393dd8bc10be71.jar" />
-    </item>
-    <item
-        jar="/Users/Admin/AndroidstudioProjects/WidgetDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/Admin/AndroidstudioProjects/WidgetDemo/app/build/intermediates/pre-dexed/debug/classes-c8aeb92a02b3afb72495d883db4164c810c30925.jar" />
+        <dex dex="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-21.0.3_0edc0b8d7e5b56a17d0a6046619dd8c9203f8428\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-21.0.3_f4538dfecdc8f4a0a211af656bcc41d0cb048c57\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Moitroid\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-21.0.3_2f944fde2dab9029e757a04c4e3a54b1adc3a98a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-21.0.3_3ffe4d4eb1f25d40303d2e89dfb25d466f6d838c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="c2fff8b257f3fbd9ec61aafbff6bbd886d1cb2d2">
+        <dex dex="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_73d4479da91d7c5c0d680ae0e0576fd9ed429d60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="e0bd7f9308ac4b592d3b2e412e5294ab41d26969">
+        <dex dex="C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_072189845d1a21ff73ca25d843314ea949ac2753\classes.dex" />
     </item>
 
 </items>

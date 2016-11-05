@@ -1,117 +1,145 @@
 -- Merging decision tree log ---
 manifest
-ADDED from AndroidManifest.xml:1:1
-	xmlns:android
-		ADDED from AndroidManifest.xml:1:11
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:2:1-84:12
 	package
-		ADDED from AndroidManifest.xml:2:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from AndroidManifest.xml:4:5
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from AndroidManifest.xml:3:5
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from AndroidManifest.xml:6:5
-MERGED from com.android.support:support-v4:21.0.3:15:5
-MERGED from com.android.support:recyclerview-v7:21.0.3:15:5
-MERGED from com.android.support:support-v4:21.0.3:15:5
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:7:5-9:40
+MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:8:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:9:9-37
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:7:9
-		INJECTED from AndroidManifest.xml:0:0
-		INJECTED from AndroidManifest.xml:0:0
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:11:5-89
+	android:name
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:11:30-86
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:12:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:13:5-88
+	android:name
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:13:30-85
 application
-ADDED from AndroidManifest.xml:10:5
-MERGED from com.android.support:support-v4:21.0.3:16:5
-MERGED from com.android.support:recyclerview-v7:21.0.3:17:5
-MERGED from com.android.support:support-v4:21.0.3:16:5
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:15:5-82:19
+MERGED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
 	android:label
-		ADDED from AndroidManifest.xml:13:9
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:18:9-41
 	android:allowBackup
-		ADDED from AndroidManifest.xml:11:9
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from AndroidManifest.xml:12:9
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:17:9-45
 receiver#pl.looksok.widgetdemo.MyWidgetProvider
-ADDED from AndroidManifest.xml:15:9
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:name
-		ADDED from AndroidManifest.xml:15:19
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:19:19-51
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:16:13
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:20:13-22:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from AndroidManifest.xml:17:17
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:21:17-84
 	android:name
-		ADDED from AndroidManifest.xml:17:25
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:21:25-81
 meta-data#android.appwidget.provider
-ADDED from AndroidManifest.xml:20:13
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:24:13-26:64
 	android:resource
-		ADDED from AndroidManifest.xml:22:17
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:26:17-61
 	android:name
-		ADDED from AndroidManifest.xml:21:17
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:25:17-58
 receiver#pl.looksok.widgetdemo.MyWidgetIntentReceiver
-ADDED from AndroidManifest.xml:24:9
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:28:9-42:20
 	android:label
-		ADDED from AndroidManifest.xml:26:13
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:30:13-52
 	android:name
-		ADDED from AndroidManifest.xml:25:13
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:29:13-51
 intent-filter#pl.looksok.intent.action.CHANGE_PICTURE+pl.looksok.intent.action.ITEM_BAG+pl.looksok.intent.action.MYSTERY_GIFT+pl.looksok.intent.action.OPEN_WINDOW+pl.looksok.intent.action.RETURN
-ADDED from AndroidManifest.xml:27:13
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:31:13-37:29
 action#pl.looksok.intent.action.CHANGE_PICTURE
-ADDED from AndroidManifest.xml:28:17
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:32:17-82
 	android:name
-		ADDED from AndroidManifest.xml:28:25
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:32:25-79
 action#pl.looksok.intent.action.RETURN
-ADDED from AndroidManifest.xml:29:17
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:33:17-74
 	android:name
-		ADDED from AndroidManifest.xml:29:25
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:33:25-71
 action#pl.looksok.intent.action.OPEN_WINDOW
-ADDED from AndroidManifest.xml:30:17
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:34:17-79
 	android:name
-		ADDED from AndroidManifest.xml:30:25
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:34:25-76
 action#pl.looksok.intent.action.MYSTERY_GIFT
-ADDED from AndroidManifest.xml:31:17
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:35:17-80
 	android:name
-		ADDED from AndroidManifest.xml:31:25
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:35:25-77
 action#pl.looksok.intent.action.ITEM_BAG
-ADDED from AndroidManifest.xml:32:17
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:36:17-76
 	android:name
-		ADDED from AndroidManifest.xml:32:25
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:36:25-73
 activity#pl.looksok.widgetdemo.Window
-ADDED from AndroidManifest.xml:39:9
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:44:9-52:20
 	android:theme
-		ADDED from AndroidManifest.xml:39:42
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:46:13-48
 	android:name
-		ADDED from AndroidManifest.xml:39:19
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:45:13-35
 intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:40:13
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:47:13-51:29
 action#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from AndroidManifest.xml:41:17
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:48:17-87
 	android:name
-		ADDED from AndroidManifest.xml:41:25
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:48:25-84
 category#android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:42:17
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:50:17-76
 	android:name
-		ADDED from AndroidManifest.xml:42:27
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:50:27-73
 activity#pl.looksok.widgetdemo.MysteryGiftActivity
-ADDED from AndroidManifest.xml:45:9
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:53:9-61:20
 	android:theme
-		ADDED from AndroidManifest.xml:45:55
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:55:13-48
 	android:name
-		ADDED from AndroidManifest.xml:45:19
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:54:13-48
 activity#pl.looksok.widgetdemo.BagActivity
-ADDED from AndroidManifest.xml:51:9
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:62:9-70:20
 	android:theme
-		ADDED from AndroidManifest.xml:51:47
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:64:13-48
 	android:name
-		ADDED from AndroidManifest.xml:51:19
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:63:13-40
+activity#pl.looksok.widgetdemo.IntroActivity
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:72:9-80:20
+	android:theme
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:74:13-48
+	android:name
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:73:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:75:13-79:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:76:17-69
+	android:name
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:76:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:78:17-77
+	android:name
+		ADDED from C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\src\main\AndroidManifest.xml:78:27-74
 activity#android.support.v7.widget.TestActivity
-ADDED from com.android.support:recyclerview-v7:21.0.3:18:9
+ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:18:9-115
 	android:label
-		ADDED from com.android.support:recyclerview-v7:21.0.3:18:19
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:18:19-59
 	android:name
-		ADDED from com.android.support:recyclerview-v7:21.0.3:18:60
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] C:\Users\Moitroid\Documents\pikachuwidgetpet\WidgetDemo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\AndroidManifest.xml:18:60-113

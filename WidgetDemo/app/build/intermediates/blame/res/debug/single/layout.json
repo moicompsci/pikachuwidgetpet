@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\window.xml",
+        "source": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\layout\\window.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mystery_gift_layout.xml",
+        "source": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\layout\\mystery_gift_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bag_layout.xml",
+        "source": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\layout\\bag_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_demo.xml",
+        "source": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\layout\\widget_demo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bag_grid.xml",
+        "source": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\layout\\bag_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\intro_page.xml",
+        "source": "C:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\src\\main\\res\\layout\\intro_page.xml"
+    }
+]
