@@ -12,7 +12,7 @@
         android:top="20dp"
         android:bottom="20dp"/>
 
-    <solid android:color="#ff0bec09"/>
+    <solid android:color="#ffffff"/>
     
 
 </shape>

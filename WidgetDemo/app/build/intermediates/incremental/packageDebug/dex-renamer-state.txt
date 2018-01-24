@@ -1,7 +1,4 @@
-#Sat Nov 05 11:12:40 PDT 2016
-base.0=C\:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_73d4479da91d7c5c0d680ae0e0576fd9ed429d60
-renamed.1=classes2.dex
+#Tue Jan 23 21:34:43 PST 2018
+base.0=C\:\\Users\\Moitroid\\Desktop\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=C\:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_072189845d1a21ff73ca25d843314ea949ac2753\\classes.dex
-base.1=C\:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_072189845d1a21ff73ca25d843314ea949ac2753
-file.0=C\:\\Users\\Moitroid\\Documents\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_73d4479da91d7c5c0d680ae0e0576fd9ed429d60\\classes.dex
+file.0=C\:\\Users\\Moitroid\\Desktop\\pikachuwidgetpet\\WidgetDemo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

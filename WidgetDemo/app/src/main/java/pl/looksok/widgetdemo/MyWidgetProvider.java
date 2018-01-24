@@ -23,61 +23,33 @@ import android.widget.RemoteViews;
 
 public class MyWidgetProvider extends AppWidgetProvider  {
 
+    final String CHANGE_PICTURE = "pl.looksok.intent.action.CHANGE_PICTURE";
+    final String OPEN_WINDOW = "pl.looksok.intent.action.OPEN_WINDOW";
+    final String RETURN = "pl.looksok.intent.action.RETURN";
+    final String MYSTERY_GIFT = "pl.looksok.intent.action.MYSTERY_GIFT";
+    final String ITEM_BAG = "pl.looksok.intent.action.ITEM_BAG";
 	@Override
 	public void onUpdate(Context context, AppWidgetManager appWidgetManager,
 			int[] appWidgetIds) {
-
-
-
 		RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.widget_demo);
-		remoteViews.setOnClickPendingIntent(R.id.widget_image, buildImagePendingIntent(context));
-        remoteViews.setOnClickPendingIntent(R.id.widget_button1, buildReturnPendingIntent(context));
-		remoteViews.setOnClickPendingIntent(R.id.widget_button2, openWindowPendingIntent(context));
-        remoteViews.setOnClickPendingIntent(R.id.mysterygiftbuttonid, openMysteryGiftPendingIntent(context));
-        remoteViews.setOnClickPendingIntent(R.id.bagbuttonid, openItemBagPendingIntent(context));
+		remoteViews.setOnClickPendingIntent(R.id.widget_image, buildPendingIntent(context, CHANGE_PICTURE));
+        remoteViews.setOnClickPendingIntent(R.id.widget_button1, buildPendingIntent(context, RETURN));
+		remoteViews.setOnClickPendingIntent(R.id.widget_button2, buildPendingIntent(context, OPEN_WINDOW));
+        remoteViews.setOnClickPendingIntent(R.id.mysterygiftbuttonid, buildPendingIntent(context, MYSTERY_GIFT));
+        remoteViews.setOnClickPendingIntent(R.id.bagbuttonid, buildPendingIntent(context, ITEM_BAG));
 		pushWidgetUpdate(context, remoteViews);
 	}
 
-	public static PendingIntent buildImagePendingIntent(Context context) {
-		Intent intent = new Intent();
-	    intent.setAction("pl.looksok.intent.action.CHANGE_PICTURE");
-	    return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-	}
-    public static PendingIntent buildReturnPendingIntent(Context context) {
+	public static PendingIntent buildPendingIntent(Context context, String s){
         Intent intent = new Intent();
-        intent.setAction("pl.looksok.intent.action.RETURN");
+        intent.setAction(s);
         return PendingIntent.getBroadcast(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-    }
-	public static PendingIntent openWindowPendingIntent(Context context) {
-		Intent config_intent= new Intent(context,Window.class);
-        config_intent.setAction("pl.looksok.intent.action.OPEN_WINDOW");
-	    return PendingIntent.getActivity(context, 0, config_intent, PendingIntent.FLAG_UPDATE_CURRENT);
-	}
-    public static PendingIntent openMysteryGiftPendingIntent(Context context) {
-        Intent config_intent= new Intent(context,MysteryGiftActivity.class);
-        config_intent.setAction("pl.looksok.intent.action.MYSTERY_GIFT");
-        return PendingIntent.getActivity(context, 0, config_intent,PendingIntent.FLAG_UPDATE_CURRENT);
-    }
-    public static PendingIntent openItemBagPendingIntent(Context context) {
-        Intent config_intent= new Intent(context,BagActivity.class);
-        config_intent.setAction("pl.looksok.intent.action.ITEM_BAG");
-        return PendingIntent.getActivity(context, 0, config_intent,PendingIntent.FLAG_UPDATE_CURRENT);
     }
 
 	public static void pushWidgetUpdate(Context context, RemoteViews remoteViews) {
 		ComponentName myWidget = new ComponentName(context, MyWidgetProvider.class);
 	    AppWidgetManager manager = AppWidgetManager.getInstance(context);
 	    manager.updateAppWidget(myWidget, remoteViews);		
-	}
-
-
-	@Override
-	public void onEnabled(Context context) {
-		super.onEnabled(context);
-
-
-		//sensorManager.registerListener(this, accel, SensorManager.SENSOR_DELAY_FASTEST);
-
 	}
 
 
